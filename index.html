@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="dist/css/style.min.css"/> -->
+ <link rel="stylesheet" href="dist/css/style.min.css" />
+<script src="./js/main.js" type="module"></script>
+<title>SearchApp</title>
+</head>
+<body>
+  <main>
+    <h1 class="offscreen">Search Me a wikipedia
+       prepared search engine</h1>
+       <section class="searchEntry">
+<h2 class="offscreen">Search Term Entry</h2>
+<div class="logo" aria-hidden="true">
+  
+ 
+
+</div>
+<form id="searchBar" class="searchBar">
+  <label class="offscreen" for="search">
+    Enter a serch term or phrase
+  </label>
+  <input id="search" type="text" autocomplete="off"/>
+  <div id="clear" class="none  button clear" role="button" tabindex="0"
+  aria-label="clear search term"><i class="fas fa-times"></i></div>
+
+  <button id="searchButton" class="button searchButton"
+  type="submit" aria-label="Submit button">
+  <i class="fas fa-search blue"></i>
+  <!-- search -->
+</button>
+
+
+</form>
+       </section>
+       <!-- reslt seasction -->
+       <section class="results">
+         <h2 class="offscreen">Search result</h2>
+         <div class="statsBar">
+           <div id="stats" class="stats" arie-live="assertive"></div>
+<!-- for the screen to announce aour result -->
+          </div>
+          <div id="searchResults"class="searchResults">
+<!-- container for result -->
+<div class="resultItem">
+
+  <div class="resultTitle">
+<a href=""></a>
+  </div>
+  <div class="resultContents">
+    <div class="resultImage">
+      <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Mao-the-dachshund-wikipedia.png/50px-Mao-the-dachshund-wikipedia.png"alt="Dashmhud"> -->
+    </div>
+    <div class="resultText">
+      <p class="resultDescription">
+      </p>
+    </div>
+  </div>
+</div>
+
+          </div>
+
+        </section>
+  </main>
+  <footer>
+  <p><span arie-hidden="true">&lt;&lt;</span>
+  <!-- Powered by<a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
+  <span arie-hidden="true">&gt;&gt;</span></p> -->
+  </footer>
+</body>
+
+</html> 
